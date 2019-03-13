@@ -9,17 +9,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Menu
-          avatar={{
-            url:
-              "https://instagram.feoh4-2.fna.fbcdn.net/vp/4d3f0800aa5095950d6b7f5845840d50/5D191DE5/t51.2885-15/e35/45643783_734780323575509_3152925887313704723_n.jpg?_nc_ht=instagram.feoh4-2.fna.fbcdn.net",
-            alt: "Avatar"
-          }}
-        />
+        <Menu />
         <Home
           front={{
             url:
-              "https://instagram.feoh4-2.fna.fbcdn.net/vp/4d3f0800aa5095950d6b7f5845840d50/5D191DE5/t51.2885-15/e35/45643783_734780323575509_3152925887313704723_n.jpg?_nc_ht=instagram.feoh4-2.fna.fbcdn.net",
+              "https://i.pinimg.com/236x/44/d4/47/44d447462ee2ba7980bf8d8b484a8336.jpg",
             alt: "front"
           }}
         />
