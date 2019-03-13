@@ -11,11 +11,14 @@ const ImagenFront = styled.img`
 class Home extends Component {
   render() {
     return (
-      <div className="name">
-        <figure>
+      <div className="name d-sm-flex justify-content-center align-items-center flex-column iam-side">
+        <figure
+          className='d-sm-flex justify-content-center align-items-center flex-column iam-side">
+          <section class="navbar-'
+        >
           <ImagenFront src={this.props.front.url} alt={this.props.front.alt} />
         </figure>
-        <h1>PUPPIS MINI</h1>
+        <h1 className="text-center">PUPPIS MINI</h1>
         <h3>Cachorros Miniatura</h3>
       </div>
     );
