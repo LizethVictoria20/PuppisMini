@@ -5,6 +5,7 @@ import styled from "styled-components";
 import Menu from "./components/menu";
 import Home from "./components/home";
 import AboutMe from "./components/aboutMe";
+import Tips from "./components/tips";
 
 class App extends Component {
   render() {
@@ -23,6 +24,13 @@ class App extends Component {
             url:
               "https://imagenesparapeques.com/wp-content/uploads/2017/08/imagenes-simones-perritas-fotos.jpg",
             alt: "Image About"
+          }}
+        />
+        <Tips
+          tips={{
+            url:
+              "https://image.freepik.com/vector-gratis/dibujos-elementos-perro_23-2147537607.jpg",
+            alt: "Tips"
           }}
         />
       </div>
