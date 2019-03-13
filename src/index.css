@@ -1,11 +1,12 @@
 .menu {
   display: flex;
   justify-content: space-between;
-  background: #fefedf;
   height: 70px;
-  padding: 10px;
+  padding: 15px;
 }
 .name {
   font-family: "Indie Flower", cursive;
   text-align: center;
+  background: #fefedf;
+  margin: 40px;
 }
