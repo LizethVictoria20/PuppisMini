@@ -6,6 +6,7 @@ import Menu from "./components/menu";
 import Home from "./components/home";
 import AboutMe from "./components/aboutMe";
 import Tips from "./components/tips";
+import Photos from "./components/photos";
 
 class App extends Component {
   render() {
@@ -33,6 +34,7 @@ class App extends Component {
             alt: "Tips"
           }}
         />
+        <Photos />
       </div>
     );
   }
