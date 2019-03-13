@@ -4,7 +4,7 @@ import styled from "styled-components";
 const AMenu = styled.a`
   color: #b39cd0;
   font-family: "Indie Flower", cursive;
-  font-size: 20px;
+  font-size: 30px;
 `;
 
 class Menu extends Component {

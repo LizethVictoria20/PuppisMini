@@ -16,13 +16,13 @@ const Parrafo = styled.p`
 class Tips extends Component {
   render() {
     return (
-      <Container class="container">
-        <div class="row">
-          <div class="col-sm" className="tips">
+      <Container className="container">
+        <div className="row">
+          <div className="col-sm" className="tips">
             <h2>Tips for your pet</h2>
             <Image src={this.props.tips.url} alt={this.props.tips.alt} />
           </div>
-          <div class="col-sm">
+          <div className="col-sm">
             <Parrafo>
               <ul>
                 <li>
