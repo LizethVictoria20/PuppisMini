@@ -8,6 +8,7 @@ import AboutMe from "./components/aboutMe";
 import Tips from "./components/tips";
 import Photos from "./components/photos";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 class App extends Component {
   render() {
@@ -37,6 +38,7 @@ class App extends Component {
         />
         <Photos />
         <Contact />
+        <Footer />
       </div>
     );
   }
