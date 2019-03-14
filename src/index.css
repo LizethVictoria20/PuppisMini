@@ -48,3 +48,9 @@ li {
   text-align: center;
   display: inline-block;
 }
+.link {
+  color: black;
+}
+.link:hover {
+  color: black;
+}
