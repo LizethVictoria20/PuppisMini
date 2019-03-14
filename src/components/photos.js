@@ -46,7 +46,7 @@ class Photos extends Component {
               </div>
             </Card>
           </div>
-          <div class="col-sm">
+          <div className="col-sm">
             {" "}
             <Card className="card post">
               <div className="card-body">
@@ -67,7 +67,7 @@ class Photos extends Component {
               </div>
             </Card>
           </div>
-          <div class="col-sm">
+          <div className="col-sm">
             {" "}
             <Card className="card post">
               <div className="card-body">
@@ -88,7 +88,7 @@ class Photos extends Component {
               </div>
             </Card>
           </div>
-          <div class="col-sm">
+          <div className="col-sm">
             {" "}
             <Card className="card post">
               <div className="card-body">
@@ -109,7 +109,7 @@ class Photos extends Component {
               </div>
             </Card>
           </div>
-          <div class="col-sm">
+          <div className="col-sm">
             {" "}
             <Card className="card post">
               <div className="card-body">
@@ -130,7 +130,7 @@ class Photos extends Component {
               </div>
             </Card>
           </div>
-          <div class="col-sm">
+          <div className="col-sm">
             <Card className="card post">
               <div className="card-body">
                 <a href="#" className="card-link ">

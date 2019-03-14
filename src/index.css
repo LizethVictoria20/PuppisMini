@@ -54,3 +54,6 @@ li {
 .link:hover {
   color: black;
 }
+.card {
+  background: #b39cd0;
+}
