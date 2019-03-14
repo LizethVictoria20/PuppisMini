@@ -9,36 +9,35 @@ import Tips from "./components/tips";
 import Photos from "./components/photos";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import Container from "./components/container";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      activo: "home"
+    };
+  }
+  changeState = nuevoActivo => {
+    this.setState({ activo: nuevoActivo });
+  };
   render() {
+    let Content = null;
+    if (this.state.activo === "home") {
+      Content = <Home />;
+    } else if (this.state.activo === "about-me") {
+      Content = <AboutMe />;
+    } else if (this.state.activo === "tips") {
+      Content = <Tips />;
+    } else if (this.state.photos === "photos") {
+      Content = <Photos />;
+    } else {
+      Content = <Contact />;
+    }
     return (
       <div>
-        <Menu />
-        <Home
-          front={{
-            url:
-              "https://i.pinimg.com/236x/44/d4/47/44d447462ee2ba7980bf8d8b484a8336.jpg",
-            alt: "front"
-          }}
-        />
-        <AboutMe
-          about={{
-            url:
-              "https://imagenesparapeques.com/wp-content/uploads/2017/08/imagenes-simones-perritas-fotos.jpg",
-            alt: "Image About"
-          }}
-        />
-        <Tips
-          tips={{
-            url:
-              "https://image.freepik.com/vector-gratis/dibujos-elementos-perro_23-2147537607.jpg",
-            alt: "Tips"
-          }}
-        />
-        <Photos />
-        <Contact />
-        <Footer />
+        <Menu menu={this.changeState} />
+        {Content}
       </div>
     );
   }

@@ -23,7 +23,10 @@ class Tips extends Component {
         <div className="row">
           <div className="col-sm" className="tips">
             <Title>Tips for your pet</Title>
-            <Image src={this.props.tips.url} alt={this.props.tips.alt} />
+            <Image
+              src="https://image.freepik.com/vector-gratis/dibujos-elementos-perro_23-2147537607.jpg"
+              alt="Tips"
+            />
           </div>
           <div className="col-sm">
             <Parrafo>

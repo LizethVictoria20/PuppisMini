@@ -29,7 +29,10 @@ class AboutMe extends Component {
             </ParrafoAbout>
           </div>
           <div className="col-sm">
-            <Image src={this.props.about.url} alt={this.props.about.alt} />
+            <Image
+              src="https://imagenesparapeques.com/wp-content/uploads/2017/08/imagenes-simones-perritas-fotos.jpg"
+              alt="Image About"
+            />
           </div>
         </div>
       </div>
