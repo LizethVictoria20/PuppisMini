@@ -9,6 +9,9 @@ const Image = styled.img`
   width: 70%;
   border-radius: 50%;
 `;
+const Title = styled.h2`
+  font-size: 50px;
+`;
 const Parrafo = styled.p`
   font-size: 20px;
 `;
@@ -19,7 +22,7 @@ class Tips extends Component {
       <Container className="container">
         <div className="row">
           <div className="col-sm" className="tips">
-            <h2>Tips for your pet</h2>
+            <Title>Tips for your pet</Title>
             <Image src={this.props.tips.url} alt={this.props.tips.alt} />
           </div>
           <div className="col-sm">
